@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn Jquery</title>
+        <style>
+                body { font-family: arial;}
+                #box {
+                    padding: 10px;
+                    border: 1px solid #000;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>Jquery Selectors</h1>
+
+        <div id="box" class="test">
+            <h2>Test Box 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut alias, quibusdam eveniet facilis dolorem doloribus magni iusto itaque quaerat sed atque iure velit nemo officiis excepturi vero distinctio! Asperiores.</p>
+        </div>
+
+        <ul id="list">
+            <li>Orange</li>
+            <li class="test">Banana</li>
+            <li>Grapes</li>
+            <li class="test">Apple</li>
+            <li>Guava</li>
+        </ul>
+        <script src="Jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("ul li:lt(3)").css("border","2px solid red");
+            });
+        </script>
+    </body>
+</html>

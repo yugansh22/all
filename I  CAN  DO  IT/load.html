@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <img src="load.png" alt="" class="load" onload="hidebtn()" id="button">
+        <style>
+        </style>
+    </head>
+    <body>
+        <script>
+            function hidebtn() {
+                setTimeout(function(){
+                    var btn = document.getElementById("button");
+                    btn.remove(location.replace("jewellery.html"));
+                },900);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,237 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>online shopping - buy now</title>
+        <link rel="shortcut icon" type="image" href="OS1.png">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
+        
+        <style>
+            @font-face{ 
+	font-family: 'MyWebFont';
+	src:  url('.webfontkit-20210516-032456/nunito-black-webfont.woff') format('woff'),
+	   
+}
+            body{
+                font-family: MyWebFont;
+                background-color: #aad8d3;
+                
+            }
+            .menu {
+                float: right;
+                color: rgb(228,228,228);
+                display: flex;
+                height: 100px;
+            }
+            .menu2 {
+                display: inline-block;
+            }
+            .heading {
+                margin-left: 38%;
+                margin-top: 100px;
+                border-radius: 50%;
+            }
+            
+            .dropdown-content a {
+                color: black;
+                padding: 18px 38px;
+                text-decoration: none;
+                display: block;
+                border: solid;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 0px 10px;
+                z-index: 1;
+                margin-top: 100px;
+                margin-left: -3px;
+            }
+
+            .menu2:hover .dropdown-content {
+                display: block;
+                color: rgb(74, 248, 248);
+                box-shadow: 0 0 10x;
+            }
+            .instruction {
+                font-size: 25;
+            }
+            .a1 {
+                padding: 28px;
+                font-size: 25px;
+                height: 100px;
+            }
+            .div5 {
+                font-size: 25px;
+                height: 100px;
+            }
+            .div5:hover {
+                box-shadow: 0 10px 20px ;
+                background: #00adb5;
+                color: rgb(74, 248, 248);
+            }
+            .a1:hover {
+                box-shadow: 0 0 20px;
+                background: #00adb5;
+                color: white;
+                transition: 0.2s;
+            }
+                    
+            .lo {
+                position: absolute;
+                padding: 20px;
+                width: 10%;
+                height: 25px;
+                background-color: azure;
+                color: black;
+                font-size: 25px;
+                border: solid 2px;
+                border-left: thin;
+
+            }
+            .jj {
+                width: 15%;
+                height: 65px;
+                border: solid black 2px;
+                border-bottom: thin;
+                margin-left: -10px;
+                font-size: 35px;
+            }
+            .pp {
+                width: 15%;
+                height: 65px;
+                border: solid black 2px;
+                margin-left: -10px;
+                font-size: 35px;
+
+            }
+            .gg {
+                width: 15%;
+                height: 65px;
+                border: solid black 2px;
+                border-top: thin;
+                margin-left: -10px;
+                font-size: 35px;
+            }
+            .sel {
+                width: 195px;
+                font-size: 150%;
+            }
+            .w1 {
+                width: 300px;
+                background-color: white;
+            }
+            .w2 {
+                width: 357px;
+                background-color: white;
+                height: 300px;
+            }
+            .w3 {
+                width: 24%;
+                background-color: white;
+                margin-left: unset;
+            }
+            .im3:hover {
+                width: 80%;
+                margin-left: 7px;
+                margin-top: 25px;
+                transition: 0.5s;
+            }
+            .im2:hover {
+                width: 64%;
+                margin-left: 26px;
+                transition: 0.5s;
+            }
+            .im1:hover {
+                width: 270px;
+                margin-top: 2%;
+                margin-left: 32px;
+                position: relative;
+                transition: 0.5s;
+            }
+            .im1 {
+                width: 225px;
+                margin-left: 55px;
+                margin-top: 28px;
+            }
+            .im2 {
+                width: 215px;
+                margin-left: 33px;
+                margin-top: 35px;
+            }
+            .im3 {     
+                margin-top: 34px;
+                margin-left: 26px;
+                width: 217px;
+            }
+            .divv {
+                padding: 10px;
+                display: flex;
+                padding: 12px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="div3">
+            <table>
+                <tr>
+                    <div class="container2"><td><img src="OS1.png" class="os"></td>
+                    <div><td><h2 class="name">Online Shopping</h2></td></div>
+                </tr>
+            </table>
+        </div>
+            <div class="container">
+                <div class="div5"><button onclick="back()" class="a1" id="home">HOME</button></div>
+                <div class="div5"><button class="a1">BEST OFFERS</button></div>
+                <div class="menu2">
+                    <img src="menu.png" class="menu">
+                    <div class="dropdown-content">
+                        <a href="instruction2.html" class="instruction">Instruction</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+                    <select class="sel">
+                        <option><button class="jj" class="lo">Jewellery</button></option>
+                    </select>
+                    <br>
+                    <br>
+                    <div class="divv">
+                        <div class="w1">
+                            <img src="w1.png" class="im1">
+                            
+                        </div>
+                        <div class="w2">
+                            <img src="w2.png" class="im2">
+                        </div>
+                        <div class="w3">
+                            <img src="w3.png" class="im3">
+                        </div>
+                    </div>
+                    <br>
+                        
+                    <br>
+                    <select class="sel">
+                        <option><button class="pp" class="lo">Girls Bags<br></button></option>
+                    </select>
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                    <select class="sel">
+                        <option><button class="gg" class="lo">Dresses</button></option>
+                        <option><button class="gg" class="lo">Dresses Pink</button></option>
+                        <option><button class="gg" class="lo">Dresses Blue</button></option>
+                        <option><button class="gg" class="lo">Dresses red</button></option>
+                        <option><button class="gg" class="lo">Dresses Orange</button></option>
+                        <option><button class="gg" class="lo">Dresses Yellow</button></option>
+                        <option><button class="gg" class="lo">Dresses Green</button></option>
+                    </select>
+                
+            <br><br><br>
+            <script src="jquery/jquery.js"></script>
+            <script src="scripts/script.js"></script>
+    </body>
+</html>

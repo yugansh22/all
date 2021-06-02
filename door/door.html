@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .frame {
+                margin: .5em auto;
+                border: solid 1em saddlebrown;
+                border-bottom: none;
+                width: 13em; height: 22.5em;
+                perspective: 21em;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            .door {
+                height: inherit;
+                background: darksalmon;
+                transition:1.6s;
+            }
+            .open{
+                transform-origin: 0 0 /*whatever y value you wish*/;
+                transform: rotateY(55deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="doorWrapper">
+            <div class='container'>
+            <div class='frame'>
+                <div class='door'></div>
+            </div>
+        </div>
+        <script src="jquery.js"></script>
+        <script>
+            $(document).ready( function () {
+                    $('.frame').hover( function () {
+                    $(this).closest('.frame').find('.door').toggleClass('open')
+                })
+            });
+        </script>
+    </body>
+</html>

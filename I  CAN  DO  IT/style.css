@@ -1,0 +1,135 @@
+
+    .div1 {
+
+        text-align: center;
+        border-style: solid;
+        width: 70%;
+        padding: 207px;
+        height: 377px;
+        background-image: url(border.png);
+        background-repeat: no-repeat;
+
+        background-size: 100% 100%;
+    }
+    .os {
+        height: 53px;
+        text-align: center;
+        position: relative;
+        color: black;
+        border-radius: 50%;
+        margin: 0%;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+        body{
+            background-color: rgb(228,228,228);
+        }
+        .div1 {
+            margin-left: 25%;
+            margin-top: 63px;
+            text-align: center;
+            border-style: solid;
+            width: 40%;
+            padding: 46px;
+            height: 380px;
+            background-image: url(border.png);
+        }
+        .os {
+            height: 50px;
+            text-align: center;
+            position: relative;
+            color: black;
+            border-radius: 50%;
+            margin-top: 1%;
+        }
+        
+        .div3 {
+            background-color: papayawhip;
+            height: 70px;
+            padding: 12px;
+            width: 50%;
+        }
+    }
+
+
+
+
+
+
+    .os {
+        height: 60px;
+        text-align: center;
+        position: relative;
+        color: black;
+        border-radius: 50%;
+        margin-top: 1%;
+        background-color: white;
+        }
+    .container {
+        display: flex;
+        margin-left: -8px;
+    }
+    .div3 {
+        background-color: #393e46;
+        height: 80px;
+        padding: 12px;
+        width: 99.4%;
+        margin-top: -8px;
+        margin-left: -8px;
+    }
+    .bor {
+        width: 100%;
+        height: 0px;
+    }
+
+    .ho:hover {
+        background: crimson;
+        color: white;
+        transition: 0.3s;
+    }
+    .home {
+        width: 20%;
+    }
+    .btn {
+        background-color: white;
+        border-radius: 1%;
+        height: 52px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .color1 {
+        background-color: white;
+        height: 51px;
+        width: 100%;
+    }
+
+    .sel {
+        width: 100px;
+        height: 50px;
+    }
+    .color2 {
+        height: 30px;
+    }
+    .yo {
+        width: 61px;
+        height: 50px;
+        color: black;
+        background-color: azure;
+        border-radius: 50%;
+    }
+    .name {
+        margin-top: 10%;
+        color: white;
+    }
+    .show {
+        display: none;
+    }
+    .back2 {
+        border: black;
+        border-style: solid;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+    }

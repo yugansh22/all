@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <div class="black" onload="hidebtn()" id="button"></div>
+    <style>
+        .black {
+            background-size: 100% 100%;
+            background-color: black;
+        }
+    </style>
+    </head>
+    <body>
+        <script>
+            function hidebtn() {
+                setTimeout(function(){
+                    var btn = document.getElementById("button");
+                    btn.remove(location.replace("sign.html"));
+                },200);
+        }
+        </script>
+    </body>
+
+</html>
